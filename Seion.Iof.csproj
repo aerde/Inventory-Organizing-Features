@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net471</TargetFramework>
+    <Description>Several inventory organizing features.</Description>
+    <Version>1.3.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Core" Version="5.*" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" PrivateAssets="all" />
+    <PackageReference Include="UnityEngine.Modules" Version="2019.4.39" IncludeAssets="compile" />
+  </ItemGroup>
+
+	<ItemGroup>
+    <Reference Include="references\BepInEx\plugins\spt\Aki.Common.dll" />
+    <Reference Include="references\BepInEx\plugins\spt\aki-custom.dll" />
+    <Reference Include="references\BepInEx\plugins\spt\Aki.Reflection.dll" />
+    <Reference Include="references\Hollowed\hollowed.dll" />
+    <Reference Include="references\Managed\Comfort.dll" />
+    <Reference Include="references\Managed\ItemComponent.Types.dll" />
+		<Reference Include="references\Managed\Newtonsoft.Json.UnityConverters.dll" />
+		<Reference Include="references\Managed\Unity.TextMeshPro.dll" />
+		<Reference Include="references\Managed\UnityEngine.UI.dll" />
+    <Reference Include="references\Managed\Sirenix.Serialization.dll" />
+    <Reference Include="references\Managed\Assembly-CSharp.dll" />
+	</ItemGroup>
+
+</Project>
