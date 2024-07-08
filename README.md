@@ -1,2 +1,9 @@
+# Inventory Organizing Features
+
 Mod for organizing items in stash and containers in SPT.
-Original mod made by Nightingale, then updated to 3.8.3 by DeadLeaves and then I added recursive sort functionality to organize containers inside other containers.
+I added recursive sort functionality to organize containers inside other containers.
+
+## Credits
+
+- Original mod made by Nightingale
+- Updated to 3.8.3 by seionmoya
