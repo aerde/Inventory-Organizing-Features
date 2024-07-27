@@ -7,3 +7,4 @@ I added recursive sort functionality to organize containers inside other contain
 
 - Original mod made by Nightingale
 - Updated to 3.8.3 by seionmoya
+- Updated to 3.9.3 by ASterle
