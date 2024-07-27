@@ -5,7 +5,7 @@ using EFT.UI;
 using EFT.UI.DragAndDrop;
 using HarmonyLib;
 using UnityEngine.UI;
-using Aki.Reflection.Patching;
+using SPT.Reflection.Patching;
 using static Seion.Iof.UI.UserInterfaceElements;
 
 namespace Seion.Iof.Patches

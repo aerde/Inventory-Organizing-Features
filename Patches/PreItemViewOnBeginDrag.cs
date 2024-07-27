@@ -2,7 +2,7 @@ using System;
 using System.Reflection;
 using EFT.UI.DragAndDrop;
 using HarmonyLib;
-using Aki.Reflection.Patching;
+using SPT.Reflection.Patching;
 using static Seion.Iof.Features.Locker;
 
 namespace Seion.Iof.Patches

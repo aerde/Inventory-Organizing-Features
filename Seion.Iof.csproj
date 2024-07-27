@@ -16,9 +16,9 @@
   </ItemGroup>
 
 	<ItemGroup>
-    <Reference Include="references\BepInEx\plugins\spt\Aki.Common.dll" />
-    <Reference Include="references\BepInEx\plugins\spt\aki-custom.dll" />
-    <Reference Include="references\BepInEx\plugins\spt\Aki.Reflection.dll" />
+    <Reference Include="references\BepInEx\plugins\spt\spt-common.dll" />
+    <Reference Include="references\BepInEx\plugins\spt\spt-custom.dll" />
+    <Reference Include="references\BepInEx\plugins\spt\spt-reflection.dll" />
     <Reference Include="references\Hollowed\hollowed.dll" />
     <Reference Include="references\Managed\Comfort.dll" />
     <Reference Include="references\Managed\ItemComponent.Types.dll" />

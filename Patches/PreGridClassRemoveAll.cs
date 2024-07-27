@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using EFT.InventoryLogic;
 using HarmonyLib;
-using Aki.Reflection.Patching;
+using SPT.Reflection.Patching;
 using Seion.Iof.Reflection;
 using static Seion.Iof.Features.Locker;
 

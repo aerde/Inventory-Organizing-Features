@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using BepInEx;
 using BepInEx.Logging;
-using Seion.Iof.Reflection;
-using Seion.Iof.Reflection.Extensions;
+using EFT.Communications;
 using Seion.Iof.Features;
 using Seion.Iof.Patches;
+using Seion.Iof.Reflection;
+using Seion.Iof.Reflection.Extensions;
 
 namespace Seion.Iof
 {
@@ -69,7 +70,7 @@ namespace Seion.Iof
 
             NotificationManagerClass.DisplayWarningNotification(
                 $"Seion.Iof thew an exception. Perhaps version incompatibility? Exception: {ex.Message}",
-                duration: EFT.Communications.ENotificationDurationType.Infinite
+                duration: ENotificationDurationType.Infinite
                 );
 
             return ex;

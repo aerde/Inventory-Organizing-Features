@@ -5,7 +5,7 @@ using EFT.InventoryLogic;
 using EFT.UI;
 using EFT.UI.DragAndDrop;
 using HarmonyLib;
-using Aki.Reflection.Patching;
+using SPT.Reflection.Patching;
 using Seion.Iof.Reflection;
 using static Seion.Iof.Features.Locker;
 
